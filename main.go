@@ -120,7 +120,7 @@ func loadConfig() Config {
 func isImageFile(filename string) bool {
 	ext := strings.ToLower(filepath.Ext(filename))
 	switch ext {
-	case ".jpg", ".jpeg", ".png", ".gif", ".webp", ".bmp", ".tiff", ".svg", ".avif":
+	case ".jpg", ".jpeg", ".png":
 		return true
 	default:
 		return false
