@@ -29,7 +29,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v5
         with:
-          images: ghcr.io/tiny-media/hedgedoc-image-compressor # Use your username and repo name
+          images: ghcr.io/wildblueguy/hedgedoc-image-compressor # Use your username and repo name
           tags: |
             # tag latest for default branch
             type=raw,value=latest,enable={{is_default_branch}}
